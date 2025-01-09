@@ -1,4 +1,6 @@
-// Coding assignment week 7
+// ----------------------------
+// | Coding assignment week 7 |
+// ----------------------------
 
 // Create an array called ages that contains the following values: 3, 9, 23, 64, 2, 8, 28, 93.
 /* Programmatically subtract the value of the first element in the array from the value in the last element of the array.
@@ -160,7 +162,7 @@ console.log(
 /* 12. Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
  */
 const willBuyDrink = (isHotOutside, moneyInPocket) => {
-  if (isHotOutside === true && moneyInPocket > 10.5) {
+  if (isHotOutside && moneyInPocket > 10.5) {
     return true;
   }
   return false;
@@ -177,7 +179,7 @@ write what the function does and why you created it.
 // I created it because I have 5 animals I care for. It is important they get cleaned on a strict schedule.
 
 const animalCleaningDay = (isWeekend, isClean) => {
-  while (isWeekend === true || isClean === false) {
+  while (isWeekend || isClean === false) {
     return true;
   }
   return false;
